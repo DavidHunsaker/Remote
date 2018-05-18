@@ -15,3 +15,7 @@ I would like to expand this further and here are a few of the planned updates:
   * TCL
   * Insignia
 * Contact form to ask for a specific TV
+
+
+![alt text](https://github.com/DavidHunsaker/Remote/blob/master/Current%20Menu.PNG "Current Menu")
+![alt text](https://github.com/DavidHunsaker/Remote/blob/master/Remote.PNG "Remote View")
