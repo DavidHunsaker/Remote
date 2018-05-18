@@ -1,4 +1,4 @@
-package davidhunsaker.boisestate.edu.finalmenu
+package davidhunsaker.boisestate.edu.remote
 
 import android.os.Bundle
 import android.support.design.widget.NavigationView

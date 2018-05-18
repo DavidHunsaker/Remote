@@ -1,4 +1,4 @@
-package davidhunsaker.boisestate.edu.finalmenu
+package davidhunsaker.boisestate.edu.remote
 
 import android.content.Context
 import android.hardware.ConsumerIrManager
@@ -204,8 +204,8 @@ class SonyRemoteFragment : Fragment() {
         var count: Int = 0
 
         val pattern = IntArray(list.size)
-        val blah: Int = list.size - 1
-        for (i in 0..blah) {
+        val hexCodes: Int = list.size - 1
+        for (i in 0..hexCodes) {
             count = Integer.parseInt(list.get(i), 16)
             pattern[i] = count * pulses
         }

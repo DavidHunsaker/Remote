@@ -1,4 +1,4 @@
-package davidhunsaker.boisestate.edu.finalmenu
+package davidhunsaker.boisestate.edu.remote
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
