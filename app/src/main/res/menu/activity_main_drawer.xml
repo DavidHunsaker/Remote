@@ -12,6 +12,10 @@
             android:id="@+id/lg"
             android:icon="@drawable/lg"
             android:title="LG Smart TV" />
+        <item
+            android:id="@+id/samsung"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Samsung"/>
     </group>
 
     <item android:title="Communicate">

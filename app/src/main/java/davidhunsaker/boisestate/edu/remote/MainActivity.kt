@@ -83,6 +83,15 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
                 transaction.commit()
             }
+            R.id.samsung -> {
+                val transaction = m!!.beginTransaction()
+                val fragment = SamsungRemoteFragment()
+                transaction.replace(R.id.fragment_container, fragment)
+                transaction.addToBackStack(null)
+                toolbar.title = "Samsung"
+
+                transaction.commit()
+            }
             R.id.nav_send -> {
                 val toast: Toast = Toast.makeText(applicationContext, "Feature coming soon", Toast.LENGTH_LONG)
                 toast.show()
